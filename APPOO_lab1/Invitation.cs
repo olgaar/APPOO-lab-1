@@ -30,11 +30,11 @@ namespace APPOO_lab1
 
         public override void BuildBody()
         {
-            body = string.Concat("Приглашаем Вас на ", myEvent.getName(), ", которое состоится ", myEvent.getDateTime() ,". Ваше присутствие очень важно для нас! Будем ждать. В случае возникновения вопросов, просим задать их в письме по этому адресу.");
+            body = string.Concat(" Приглашаем Вас на ", myEvent.getName(), ", которое состоится ", myEvent.getDateTime() ,". Ваше присутствие очень важно для нас! Будем ждать. В случае возникновения вопросов, просим задать их в письме по этому адресу.");
         }
         public override void BuildSignature()
         {
-            signature = string.Concat("С уважением, ", signature);
+            signature = string.Concat(" С уважением, ", signature);
         }
     }
 }

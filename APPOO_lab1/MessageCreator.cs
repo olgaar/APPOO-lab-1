@@ -32,9 +32,9 @@ namespace APPOO_lab1
                 case MessageType.Proposal:
                     message = _instance.Proposal;
                     break;
-                default: message = null;
-                    break;
-            }
+                default:
+                    throw new Exception("You must supply a valid message type");
+              }
             return message;
         }
        private string Congratulation

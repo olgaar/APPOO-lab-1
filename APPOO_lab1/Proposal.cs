@@ -33,7 +33,7 @@ namespace APPOO_lab1
         }
         public override void BuildSignature()
         {
-            signature = string.Concat("С уважением,", signature );
+            signature = string.Concat(" С уважением,", signature );
         }
     }
 }
